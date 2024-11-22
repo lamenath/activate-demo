@@ -1,0 +1,46 @@
+{
+  "id": "editorial_section",
+  "type": "SharedSlice",
+  "name": "EditorialSection",
+  "description": "EditorialSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "top_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Top Title ",
+            "placeholder": "Top Title ",
+            "allowTargetBlank": false,
+            "single": "heading3"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title",
+            "allowTargetBlank": false,
+            "single": "heading1"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "Text",
+            "allowTargetBlank": false,
+            "multi": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

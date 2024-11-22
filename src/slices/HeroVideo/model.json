@@ -1,0 +1,43 @@
+{
+  "id": "hero_video",
+  "type": "SharedSlice",
+  "name": "HeroVideo",
+  "description": "HeroVideo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "logo": {
+          "type": "Image",
+          "config": {
+            "label": "Logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title",
+            "allowTargetBlank": false,
+            "single": "heading1"
+          }
+        },
+        "video_background": {
+          "type": "Embed",
+          "config": {
+            "label": "Video Background",
+            "placeholder": "Video Background"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
